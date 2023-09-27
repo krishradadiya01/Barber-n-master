@@ -61,7 +61,7 @@ export default function Chat({navigation, route}) {
           type="m16">
           {item.message}
         </CText>
-        <CText color={colors.black} style={styles.pl10} type="r12">
+        <CText color={colors.black} style={styles.pl10} type="R12">
           {item.time}
         </CText>
       </View>

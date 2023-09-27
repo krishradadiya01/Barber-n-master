@@ -75,7 +75,7 @@ export default function SelectDateAndTime({navigation}) {
           localStyles.timeContainer,
           {
             backgroundColor:
-              item.status == strings.booked
+              item.status == strings.booked  
                 ? colors.secondarySurface
                 : selectedTime === item.time
                 ? colors.primary
@@ -107,13 +107,13 @@ export default function SelectDateAndTime({navigation}) {
             color={colors.white}
             align={'center'}
             style={localStyles.monthStyle}>
-            {'August 2022'}
+            {'September 2023'}
           </CText>
           <FlatList
             data={mayMonthData}
             renderItem={DateComponent}
             keyExtractor={(item, index) => index.toString()}
-            horizontal
+            horizontal={true}
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.ph10}
           />

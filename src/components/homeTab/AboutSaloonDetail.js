@@ -26,10 +26,10 @@ export default function AboutSaloonDetail() {
         <View style={styles.rowCenter}>
           <Image source={item.image} style={localStyles.staffImageStyle} />
           <View style={styles.ph10}>
-            <CText type={'r14'} style={styles.flex}>
+            <CText type={'R14'} style={styles.flex}>
               {item.name}
             </CText>
-            <CText type={'r12'} color={colors.grayText} style={styles.flex}>
+            <CText type={'R12'} color={colors.grayText} style={styles.flex}>
               {'Barbers'}
             </CText>
           </View>
@@ -85,11 +85,11 @@ export default function AboutSaloonDetail() {
     return (
       <View style={styles.mv5}>
         <CText
-          type={'r14'}
+          type={'R14'}
           color={item.isClosed ? colors.red : colors.grayText}>
           {item.title}
         </CText>
-        <CText type={'r14'} color={item.isClosed ? colors.red : colors.black}>
+        <CText type={'R14'} color={item.isClosed ? colors.red : colors.black}>
           {item.value}
         </CText>
       </View>

@@ -10,7 +10,7 @@ import {deviceWidth, hp, moderateScale} from '../common/constants';
 import {DistanceIcon, LocationIcon} from '../assets/svg';
 import {StackNav} from '../navigation/NavigationKeys';
 
-const RenderSalonComponents = ({itm, sheetRef = ''}) => {
+const RenderSalonComponents = ({itm, sheetRef}) => {
   const [isLiked, setIsLiked] = useState(false);
   const navigation = useNavigation();
 

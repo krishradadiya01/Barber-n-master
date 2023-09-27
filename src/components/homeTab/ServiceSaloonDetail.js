@@ -69,11 +69,11 @@ export default function ServiceSaloonDetail() {
       <TouchableOpacity
         onPress={() => onPressRadio(item)}
         style={localStyles.root}>
-        <CText type={'r14'} style={styles.flex} color={colors.grayText}>
+        <CText type={'R14'} style={styles.flex} color={colors.grayText}>
           {item.title}
         </CText>
         <View style={styles.rowCenter}>
-          <CText type={'r14'} color={colors.grayText}>
+          <CText type={'R14'} color={colors.grayText}>
             {item.time}
           </CText>
           <CText type={'M14'} style={styles.mh5} color={colors.black}>

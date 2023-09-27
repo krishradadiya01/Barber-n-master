@@ -830,7 +830,7 @@ export const makeupData = [
   {
     id: 5,
     categoryType: 'makeupRadio',
-    title: 'Special Effects Makeup Special Effects Makeup',
+    title: 'Special Effects Makeup',
     time: '1 hour 30 min',
     price: '$120',
   },
@@ -1308,7 +1308,6 @@ export const mayMonthData = [
   {id: 28, date: '28', day: 'Sun'},
   {id: 29, date: '29', day: 'Mon'},
   {id: 30, date: '30', day: 'Tue'},
-  {id: 31, date: '31', day: 'Wed'},
 ];
 
 export const mayDayData = [

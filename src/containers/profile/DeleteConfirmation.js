@@ -25,7 +25,7 @@ export default function DeleteConfirmation(props) {
         activeOpacity={1}
         onPress={onPressModalClose}>
         <TouchableOpacity activeOpacity={1} style={localStyles.root}>
-          <CText type={'b16'} align={'center'} style={styles.mb20}>
+          <CText type={'B16'} align={'center'} style={styles.mb20}>
             {strings.deleteConfirmation}
           </CText>
           <View style={localStyles.btnContainer}>

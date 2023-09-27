@@ -51,7 +51,7 @@ export default function EditProfile({navigation}) {
               />
             </ImageBackground>
             <CText type={'M16'} color={colors.white} align={'center'}>
-              Viren Radadiya
+              Krish Radadiya
             </CText>
             <CText
               align={'center'}
@@ -59,7 +59,7 @@ export default function EditProfile({navigation}) {
               numberOfLines={1}
               style={styles.mb20}
               type={'R14'}>
-              {'ibnerieadazz@gmail.com'}
+              {'krishradadiya123@gmail.com'}
             </CText>
           </View>
           <View style={localStyles.mainContainerWithRadius}>

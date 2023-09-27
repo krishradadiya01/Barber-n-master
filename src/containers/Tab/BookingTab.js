@@ -30,7 +30,6 @@ export default function BookingTab() {
       const data = myAppBookingData.filter(
         itm => itm.status === strings.completed,
       );
-      console.log('opp', item)
       setSalonData(data);
     } else if (item === strings.pending) {
       const data = myAppBookingData.filter(

@@ -36,7 +36,7 @@ export default function SalonsListScreen() {
                 color={colors.white}
               />
             </View>
-            <CText type={'s16'} color={colors.white} style={styles.ml5}>
+            <CText type={'S16'} color={colors.white} style={styles.ml5}>
               {strings.sort}
             </CText>
           </TouchableOpacity>

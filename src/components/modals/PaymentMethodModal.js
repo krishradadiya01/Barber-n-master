@@ -21,7 +21,7 @@ export default function PaymentMethodModal(props) {
     return (
       <TouchableOpacity style={localStyles.textStyle} onPress={onPress}>
         {!!icon && icon}
-        <CText type={'b16'} style={styles.ph10}>
+        <CText type={'B16'} style={styles.ph10}>
           {text}
         </CText>
       </TouchableOpacity>
@@ -40,7 +40,7 @@ export default function PaymentMethodModal(props) {
       <View style={localStyles.bottomContainer}>
         <RenderItem
           text={strings.edit}
-          icon={<EditIcon />}
+          icon={<EditIcon />} 
           onPress={onPressCancel}
         />
         <View style={localStyles.divider} />

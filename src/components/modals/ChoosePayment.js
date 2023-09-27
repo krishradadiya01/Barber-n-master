@@ -82,11 +82,11 @@ export default function ChoosePayment(props) {
   return (
     <ActionSheet
       ref={SheetRef}
-      gestureEnabled={true}
+      // gestureEnabled={true}
       indicatorStyle={styles.actionSheetIndicator}
       containerStyle={localStyles.actionSheetContainer}>
       <View style={localStyles.secondaryContainer}>
-        <CText type={'B18'} color={colors.black}>
+        <CText style={localStyles.paymentMethodTxt} type={'B18'} color={colors.black}>
           {strings.paymentMethods}
         </CText>
         <TouchableOpacity onPress={onPressClose}>
@@ -102,7 +102,10 @@ export default function ChoosePayment(props) {
         <View style={localStyles.ratingContainer}>
           <CText type={'M16'}>{strings.selectPaymentMethod}</CText>
           <TouchableOpacity onPress={onPressAddNew}>
-            <CText type={'r14'} color={colors.grayText}>
+            <CText
+              type={'r14'}
+              color={colors.grayText}
+              style={localStyles.forNewCard}>
               {strings.addNew}
             </CText>
           </TouchableOpacity>
@@ -194,4 +197,13 @@ const localStyles = StyleSheet.create({
   btnWithBgContainer: {
     width: '65%',
   },
+  forNewCard: {
+    borderWidth: 2,
+    padding: 7,
+    borderRadius: 20,
+    borderColor: colors.silver,
+  },
+  paymentMethodTxt:{
+    paddingTop: 20
+  }
 });

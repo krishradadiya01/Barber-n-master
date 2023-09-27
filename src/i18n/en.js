@@ -165,7 +165,7 @@ export default {
   total: 'Total',
   payNow: 'Pay Now',
   selectPaymentMethod: 'Select Payment Method',
-  addNew: 'Add New',
+  addNew: 'Add New Card',
   congratulation: 'Congratulation',
   backToHome: 'Back to Home',
   viewDetails: 'View Details',

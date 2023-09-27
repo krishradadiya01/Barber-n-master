@@ -17,6 +17,8 @@ export const colors = {
   modalBg: '#00000099',
   red: '#FF5470',
   green: '#1ED390',
+  darkgreen: '#028A05',
   lightGray: '#9F9F9F',
+  purple: '#7E38B7',
   silver: 'silver'
 };

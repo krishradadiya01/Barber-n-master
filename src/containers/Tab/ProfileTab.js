@@ -36,6 +36,10 @@ export default function ProfileTab({navigation}) {
     }
   };
 
+  // const onPressItem = item => {
+  //   navigation.navigate(item.route)
+  // };
+
   const RenderItem = ({item, index}) => {
     return (
       <TouchableOpacity
@@ -83,7 +87,7 @@ export default function ProfileTab({navigation}) {
               numberOfLines={1}
               style={styles.mb20}
               type={'R14'}>
-              {'ibnerieadazz@gmail.com'}
+              {'krishradadiya123@gmail.com'}
             </CText>
           </View>
           <View style={localStyles.mainContainerWithRadius}>
@@ -104,8 +108,8 @@ export default function ProfileTab({navigation}) {
 
 const localStyles = StyleSheet.create({
   userImageStyle: {
-    height: moderateScale(80),
-    width: moderateScale(80),
+    height: moderateScale(75),
+    width: moderateScale(75),
     borderRadius: moderateScale(40),
     alignSelf: 'center',
     ...styles.mt20,
